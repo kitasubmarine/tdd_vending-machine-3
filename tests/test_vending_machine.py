@@ -1,7 +1,7 @@
 from vending_machine.vending_machine import vending_machine
 # リファクタリングの余地あり
 
-class test_vending_machine:
+class TestVendingMachine:
     def test_insert(self):
         vdd = vending_machine()
         # pytest parameterizeを使ってスマートに書く
